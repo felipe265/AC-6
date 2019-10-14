@@ -13,7 +13,7 @@ def nao_entre_em_panico():
             if i % divisor == 0:
                 divisores += 1
         if divisores == 2:
-            print(i, end=' ')
+            return i
 
 
 if __name__ == "__main__":
